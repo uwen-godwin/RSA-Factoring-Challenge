@@ -4,6 +4,7 @@ import time
 import math
 import sys
 
+
 def pollard_rho(n):
     if n % 2 == 0:
         return 2
@@ -22,6 +23,7 @@ def pollard_rho(n):
 
     return d if d != n else None
 
+
 def factorize_file(file_path):
     try:
         with open(file_path, 'r') as file:
@@ -38,6 +40,7 @@ def factorize_file(file_path):
 
     except FileNotFoundError:
         print(f"File '{file_path}' not found.")
+
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:

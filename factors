@@ -36,7 +36,9 @@ def factorize_file(file_path):
             if factor == num:
                 print(f"{num} is prime.")
             else:
-                print(f"{num}={factor}*{num // factor}")
+                larger_factor = max(factor, num // factor)
+                smaller_factor = min(factor, num // factor)
+                print(f"{num}={larger_factor}*{smaller_factor}")
 
     except FileNotFoundError:
         print(f"File '{file_path}' not found.")

@@ -1,6 +1,6 @@
 <a name="RSA-Factoring-Challenge"><a/>
 # RSA-Factoring-Challenge
-This repository is an attempted mission to factorize numbers
+This repository is an attempted mission to factorize numbers 🤔
 
 - **Factorize as many numbers as possible into a product of two smaller numbers.**
 - **RSA Laboratories states that: for each RSA number n, there exist prime numbers p and q such thatn = p × q. The problem is to find these two primes, given only n.**
